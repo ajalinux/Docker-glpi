@@ -18,7 +18,7 @@ services:
     - 32806:3306/tcp
   glpi:
     build: ./
-    image: fjudith/glpi:9.2.1-apache
+    image: ajalinux/glpi:9.2.1-apache
     volumes:
     - glpi-files:/var/www/html/files
     - glpi-plugins:/var/www/html/plugins
